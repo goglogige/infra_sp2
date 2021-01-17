@@ -52,14 +52,14 @@ docker cp fixtures.json <CONTAINER ID>:/code/fixtures.json
 docker container exec -it <CONTAINER ID> bash
 python manage.py loaddata fixtures.json
 ```
-## Авторы
+## Authors
 
 * **Evgenii Katolichenko** - автор, студент курса Python-разработчик в Яндекс.Практикум. Это учебный проект.
 Если есть вопросы или пожелания по проекту пишите на почту - evg.katolichenko@gmail.com
 
 Список [разработчиков](https://github.com/goglogige/api_yamdb/graphs/contributors) принимавших участие в проекте.
 
-## Благодарности
+## Acknowledgments
 
 * Создателям проекта Яндекс.Практикум
 * Куратору
